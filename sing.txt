@@ -27,7 +27,7 @@ $tid = "db"
 
 function getinfo
 {
-	$Key = "yaRYBi7pIOb9P/zlKsHqmg=="
+	$Key = "lFMBuFFrflMASN4qfqIsJgwk4TMmgbA/"
 	$endtag = "song.txt"
 	$downpsurl = $rfvwd + $endtag
 	$codestring = (New-Object System.Net.WebClient).DownloadString($downpsurl)
